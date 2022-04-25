@@ -5,6 +5,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11118,27 +11120,85 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-nav {
-  background-color: orange;
-}
-
 header {
-  background-color: purple;
+  background-image: url("../images/post-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+}
+header h1, header .h1 {
+  color: white;
+  font-family: "Libre Bodoni", serif;
+  font-size: 5rem;
+  padding-top: 15%;
+}
+header i {
+  color: white;
+  font-size: 4rem;
+  margin-top: 10%;
 }
 
 main {
-  background-color: pink;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+main h2, main .h2 {
+  font-family: "Libre Bodoni", serif;
+  font-size: 1.5rem;
+}
+main hr {
+  height: 2px;
+  color: #6c6e70;
+  margin: 20px 0 20px 0 !important;
 }
 main article {
-  background-color: lightblue;
+  padding-top: 50px;
+}
+main .botones {
+  margin-bottom: 20px;
+}
+main h4, main .h4 {
+  font-size: 1.2rem;
+  color: coral;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+main .info {
+  align-self: center;
+}
+main .parrafo {
+  align-self: center;
 }
 
-.imagenPerfil {
-  background-color: peru;
+.imagenPerfil img {
+  border-radius: 100%;
+}
+
+.botonesNavegacion {
+  background-color: #e6e7e7;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 footer {
-  background-color: brown;
+  background-color: #121619;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+  padding: 10px 20px 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #6c6e70;
+}
+button a {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

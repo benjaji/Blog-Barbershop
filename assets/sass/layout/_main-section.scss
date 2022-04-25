@@ -1,11 +1,43 @@
 main{
-  background-color: pink;
-  article{
-    background-color: lightblue;
-  }
-
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+    h2{
+      font-family: $mainFont;
+      font-size: 1.5rem;
+    }
+    hr{
+      height: 2px;
+      color: $greyColor;
+      margin: 20px 0 20px 0!important;
+    }
+    article{
+      padding-top: 50px;
+    }
+    .botones{
+      margin-bottom: 20px;
+    }
+    h4{
+      font-size: 1.2rem;
+      color: $coralColor;
+      font-family: $robotoFont;
+      font-weight: 300;
+    }
+    .info{
+      align-self: center;
+    }
+    .parrafo{
+      align-self: center;
+    }
 }
 
 .imagenPerfil{
-  background-color: peru;
+  img{
+    border-radius: 100%;
+  }
+}
+.botonesNavegacion{
+  background-color: #e6e7e7;
+  box-sizing: border-box;
+  padding: 20px;
 }

@@ -1,3 +1,18 @@
 header{
-  background-color: purple;
+  background-image: url("../images/post-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+    h1{
+      color: $whiteColor;
+      font-family: $mainFont;
+      font-size: 5rem;
+      padding-top: 15%;
+    }
+    i{
+      color: $whiteColor;
+      font-size: 4rem;
+      margin-top: 10%;
+    }
 }
